@@ -1,0 +1,8 @@
+ADMIN
+
+False
+False
+user1
+
+False
+False
