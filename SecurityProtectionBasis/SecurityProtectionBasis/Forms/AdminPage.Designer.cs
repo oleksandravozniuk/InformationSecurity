@@ -152,9 +152,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(368, 167);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 20);
+            this.label4.Size = new System.Drawing.Size(217, 20);
             this.label4.TabIndex = 13;
-            this.label4.Text = "New username";
+            this.label4.Text = "Create username for a new user";
             // 
             // AdminPage
             // 

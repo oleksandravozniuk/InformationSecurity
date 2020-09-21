@@ -68,3 +68,4 @@ C:\Users\Oleksandra\Desktop\InfoSecurity\InformationSecurity\SecurityProtectionB
 C:\Users\Oleksandra\Desktop\InfoSecurity\InformationSecurity\SecurityProtectionBasis\SecurityProtectionBasis\obj\Debug\netcoreapp3.1\SecurityProtectionBasis.Forms.UserDoesNotExistWindow.resources
 C:\Users\Oleksandra\Desktop\InfoSecurity\InformationSecurity\SecurityProtectionBasis\SecurityProtectionBasis\obj\Debug\netcoreapp3.1\SecurityProtectionBasis.Forms.WrongPasswordWindow.resources
 C:\Users\Oleksandra\Desktop\InfoSecurity\InformationSecurity\SecurityProtectionBasis\SecurityProtectionBasis\obj\Debug\netcoreapp3.1\SecurityProtectionBasis.Forms.Message.resources
+C:\Users\Oleksandra\Desktop\InfoSecurity\InformationSecurity\SecurityProtectionBasis\SecurityProtectionBasis\obj\Debug\netcoreapp3.1\SecurityProtectionBasis.Forms.AboutProgram.resources

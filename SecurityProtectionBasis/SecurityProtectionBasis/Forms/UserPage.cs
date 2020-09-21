@@ -44,6 +44,7 @@ namespace SecurityProtectionBasis.Forms
                 else
                 {
                     Message message = new Message("Password and Repeat Password are not the same!");
+                    message.Show();
                 }
                
             }
