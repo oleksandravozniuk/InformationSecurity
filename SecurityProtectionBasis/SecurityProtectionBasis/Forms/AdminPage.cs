@@ -24,13 +24,27 @@ namespace SecurityProtectionBasis.Forms
 
         private void buttonChangePassword_Click(object sender, EventArgs e)
         {
-            if (admin.Password == textBoxAdminOldPassword.Text && textBoxAdminNewPassword.Text == textBoxAdminRepeatPassword.Text)
+            if (admin.Password == textBoxAdminOldPassword.Text)
             {
-                admin.Password = textBoxAdminNewPassword.Text;
-                userService.UpdateUser(admin);
-                textBoxAdminNewPassword.Clear();
-                textBoxAdminOldPassword.Clear();
-                textBoxAdminRepeatPassword.Clear();
+                if(textBoxAdminNewPassword.Text == textBoxAdminRepeatPassword.Text)
+                {
+                    admin.Password = textBoxAdminNewPassword.Text;
+                    userService.UpdateUser(admin);
+                    textBoxAdminNewPassword.Clear();
+                    textBoxAdminOldPassword.Clear();
+                    textBoxAdminRepeatPassword.Clear();
+                }
+                else
+                {
+                    Message message = new Message("New password and Repeat password are not the same");
+                    message.Show();
+                }
+               
+            }
+            else
+            {
+                Message message = new Message("Wrong Old password!");
+                message.Show();
             }
         }
 
@@ -54,6 +68,11 @@ namespace SecurityProtectionBasis.Forms
             {
                 adminService.RegisterUser(newUser);
                 textBoxCreateUser.Clear();
+            }
+            else
+            {
+                Message message = new Message("User with this username is already exists");
+                message.Show();
             }
         }
     }

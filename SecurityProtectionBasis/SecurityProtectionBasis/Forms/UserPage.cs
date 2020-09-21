@@ -23,13 +23,34 @@ namespace SecurityProtectionBasis.Forms
 
         private void buttonChangePassword_Click(object sender, EventArgs e)
         {
-            if(user.Password==textBoxOldPassword.Text && textBoxNewPassword.Text==textBoxRepeatOldPassword.Text)
+            if(user.Password==textBoxOldPassword.Text)
             {
-                user.Password = textBoxNewPassword.Text;
-                userService.UpdateUser(user);
-                textBoxNewPassword.Clear();
-                textBoxOldPassword.Clear();
-                textBoxRepeatOldPassword.Clear();
+                if(textBoxNewPassword.Text == textBoxRepeatOldPassword.Text)
+                {
+                    if ((user.PasswordLimitationIsSet && userService.PasswordLimitation(textBoxNewPassword.Text)) || !user.PasswordLimitationIsSet)
+                    {
+                        user.Password = textBoxNewPassword.Text;
+                        userService.UpdateUser(user);
+                        textBoxNewPassword.Clear();
+                        textBoxOldPassword.Clear();
+                        textBoxRepeatOldPassword.Clear();
+                    }
+                    else
+                    {
+                        Message message = new Message("Password must contain at least one cyrillic and latin symbol");
+                        message.Show();
+                    }
+                }
+                else
+                {
+                    Message message = new Message("Password and Repeat Password are not the same!");
+                }
+               
+            }
+            else
+            {
+                Message message = new Message("Wrong old password!");
+                message.Show();
             }
         }
 

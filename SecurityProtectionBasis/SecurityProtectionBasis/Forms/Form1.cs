@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Message = SecurityProtectionBasis.Forms.Message;
 
 namespace SecurityProtectionBasis
 {
@@ -17,10 +18,13 @@ namespace SecurityProtectionBasis
     {
 
         private readonly IUser userService;
+        private readonly IAdmin adminService;
+        private int wrongPasswordCounter;
         public Form1()
         {
             InitializeComponent();
             userService = (IUser)Program.ServiceProvider.GetService(typeof(IUser));
+            adminService = (IAdmin)Program.ServiceProvider.GetService(typeof(IAdmin));
             userService.SetInitialState();
         }
 
@@ -29,23 +33,64 @@ namespace SecurityProtectionBasis
             string username = textBoxLogin.Text;
             string password = textBoxPassword.Text;
 
-            if(userService.Login(username,password))
+            if(adminService.UsernameExists(username))
             {
-                User user = userService.GetUserByUsername(username);
-                if(user.UserName=="ADMIN")
+                if (userService.Login(username, password))
                 {
-                    AdminPage adminPage = new AdminPage(user);
-                    adminPage.Show();
+                    wrongPasswordCounter = 0;
+                    User user = userService.GetUserByUsername(username);
+                    if(user.Blocked)
+                    {
+                        Message message = new Message("Your account is blocked");
+                        message.Show();
+                    }
+                    else
+                    {
+                        if (user.UserName == "ADMIN")
+                        {
+                            AdminPage adminPage = new AdminPage(user);
+                            adminPage.Show();
+                        }
+                        else
+                        {
+                            UserPage userPage = new UserPage(user);
+                            userPage.Show();
+                        }
+                        this.Hide();
+                    }  
                 }
                 else
                 {
-                    UserPage userPage = new UserPage(user);
-                    userPage.Show();
+                    wrongPasswordCounter++;
+                    if(wrongPasswordCounter>=3)
+                    {
+                        Application.Exit();
+                    }
+                    else
+                    {
+                        WrongPasswordWindow wrongPasswordWindow = new WrongPasswordWindow();
+                        wrongPasswordWindow.Show();
+                    }
                 }
-   
-                this.Hide();
             }
+            else
+            {
+                UserDoesNotExistWindow userDoesNotExistWindow = new UserDoesNotExistWindow();
+                userDoesNotExistWindow.Show();
+            }
+
+            
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AboutProgram aboutProgram = new AboutProgram();
+            aboutProgram.Show();
+        }
     }
 }

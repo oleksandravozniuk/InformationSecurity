@@ -38,18 +38,19 @@
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
-            this.labelUsername.Location = new System.Drawing.Point(17, 18);
+            this.labelUsername.Location = new System.Drawing.Point(19, 24);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(38, 15);
+            this.labelUsername.Size = new System.Drawing.Size(50, 20);
             this.labelUsername.TabIndex = 0;
             this.labelUsername.Text = "label1";
             // 
             // checkBoxBlocked
             // 
             this.checkBoxBlocked.AutoSize = true;
-            this.checkBoxBlocked.Location = new System.Drawing.Point(17, 81);
+            this.checkBoxBlocked.Location = new System.Drawing.Point(19, 108);
+            this.checkBoxBlocked.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBoxBlocked.Name = "checkBoxBlocked";
-            this.checkBoxBlocked.Size = new System.Drawing.Size(68, 19);
+            this.checkBoxBlocked.Size = new System.Drawing.Size(84, 24);
             this.checkBoxBlocked.TabIndex = 1;
             this.checkBoxBlocked.Text = "Blocked";
             this.checkBoxBlocked.UseVisualStyleBackColor = true;
@@ -57,27 +58,29 @@
             // checkBoxLimitation
             // 
             this.checkBoxLimitation.AutoSize = true;
-            this.checkBoxLimitation.Location = new System.Drawing.Point(17, 116);
+            this.checkBoxLimitation.Location = new System.Drawing.Point(19, 155);
+            this.checkBoxLimitation.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBoxLimitation.Name = "checkBoxLimitation";
-            this.checkBoxLimitation.Size = new System.Drawing.Size(151, 19);
+            this.checkBoxLimitation.Size = new System.Drawing.Size(192, 24);
             this.checkBoxLimitation.TabIndex = 2;
-            this.checkBoxLimitation.Text = "Linitations on password";
+            this.checkBoxLimitation.Text = "Limitations on password";
             this.checkBoxLimitation.UseVisualStyleBackColor = true;
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(17, 47);
+            this.labelPassword.Location = new System.Drawing.Point(19, 63);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(38, 15);
+            this.labelPassword.Size = new System.Drawing.Size(50, 20);
             this.labelPassword.TabIndex = 3;
             this.labelPassword.Text = "label1";
             // 
             // buttonSubmit
             // 
-            this.buttonSubmit.Location = new System.Drawing.Point(66, 158);
+            this.buttonSubmit.Location = new System.Drawing.Point(75, 211);
+            this.buttonSubmit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmit.Size = new System.Drawing.Size(86, 31);
             this.buttonSubmit.TabIndex = 4;
             this.buttonSubmit.Text = "Submit";
             this.buttonSubmit.UseVisualStyleBackColor = true;
@@ -85,14 +88,15 @@
             // 
             // UserProperties
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(220, 193);
+            this.ClientSize = new System.Drawing.Size(251, 257);
             this.Controls.Add(this.buttonSubmit);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.checkBoxLimitation);
             this.Controls.Add(this.checkBoxBlocked);
             this.Controls.Add(this.labelUsername);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UserProperties";
             this.Text = "UserProperties";
             this.ResumeLayout(false);

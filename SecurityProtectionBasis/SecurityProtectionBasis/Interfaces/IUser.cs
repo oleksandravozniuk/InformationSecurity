@@ -11,7 +11,6 @@ namespace SecurityProtectionBasis.Interfaces
         public User GetUserByUsername(string username);
         public void UpdateUser(User user);
         public IEnumerable<string> GetAllUsernames();
-
-
+        public bool PasswordLimitation(string password);
     }
 }

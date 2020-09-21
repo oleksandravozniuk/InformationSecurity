@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace SecurityProtectionBasis.Services
 {
@@ -62,6 +63,19 @@ namespace SecurityProtectionBasis.Services
        public IEnumerable<string> GetAllUsernames()
         {
             return fileManager.GetAllUsers().Select(x => x.UserName).Where(x => x != "ADMIN");
+        }
+
+        public bool PasswordLimitation(string password)
+        {
+
+            if (Regex.IsMatch(password, @"\p{IsCyrillic}") && Regex.IsMatch(password, "[a-z]", RegexOptions.IgnoreCase))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
        

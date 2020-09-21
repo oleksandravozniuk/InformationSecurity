@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\16ale\\Desktop\\Универ\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj": {}
+    "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\16ale\\Desktop\\Универ\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj": {
+    "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\16ale\\Desktop\\Универ\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
+        "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
         "projectName": "SecurityProtectionBasis",
-        "projectPath": "C:\\Users\\16ale\\Desktop\\Универ\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
-        "packagesPath": "C:\\Users\\16ale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\16ale\\Desktop\\Универ\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\obj\\",
+        "projectPath": "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
+        "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\16ale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oleksandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

@@ -22,7 +22,7 @@ namespace SecurityProtectionBasis.Forms
             labelUsername.Text = user.UserName;
             labelPassword.Text = user.Password;
             checkBoxBlocked.Checked = user.Blocked;
-            checkBoxBlocked.Checked = user.PasswordLimitationIsSet;
+            checkBoxLimitation.Checked = user.PasswordLimitationIsSet;
         }
 
         private void buttonSubmit_Click(object sender, EventArgs e)
