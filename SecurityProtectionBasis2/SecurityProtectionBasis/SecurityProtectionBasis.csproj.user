@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Forms\AboutProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AdminPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UserDoesNotExistWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UserPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UserProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\WrongPasswordWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

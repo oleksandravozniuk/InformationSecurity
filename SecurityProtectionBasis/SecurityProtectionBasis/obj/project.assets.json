@@ -121,11 +121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
+      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\Security\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
       "projectName": "SecurityProtectionBasis",
-      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
+      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\Security\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
       "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\InfoSecurity\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\obj\\",
+      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\Security\\InformationSecurity\\SecurityProtectionBasis\\SecurityProtectionBasis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,0 +1,17 @@
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\SecurityProtectionBasis2.exe
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\SecurityProtectionBasis2.deps.json
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\SecurityProtectionBasis2.runtimeconfig.json
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\SecurityProtectionBasis2.runtimeconfig.dev.json
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\SecurityProtectionBasis2.dll
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\SecurityProtectionBasis2.pdb
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\System.Management.dll
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.AssemblyInfoInputs.cache
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.AssemblyInfo.cs
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.csproj.CoreCompileInputs.cache
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.csproj.CopyComplete
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.dll
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.pdb
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.genruntimeconfig.cache
+C:\Users\Oleksandra\Desktop\Security\InformationSecurity\SecurityProtectionBasis2\SecurityProtectionBasis2\obj\Release\netcoreapp3.1\SecurityProtectionBasis2.csprojAssemblyReference.cache

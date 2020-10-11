@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "P5OBlXfUi6abzV0WPoFlqfj7E6QeJH1eFOsluVnvtXiNziV4u+rwnslFaa5f9ipsW2Ee0RVtht6XcvQzLDVTYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oleksandra\\Desktop\\Security\\InformationSecurity\\SecurityProtectionBasis2\\SecurityProtectionBasis\\SecurityProtectionBasis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oleksandra\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\Oleksandra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
