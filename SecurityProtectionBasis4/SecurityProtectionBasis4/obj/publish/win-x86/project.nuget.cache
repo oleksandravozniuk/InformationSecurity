@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KNEqDGWED0SP7VJICjj/mOlEJnDZTsFKaZCr3ogpSKA5asxGtcRlYlz8+EeDslc1eEgorDdkiyKulWdMQxRAEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oleksandra\\Desktop\\Security\\InformationSecurity\\SecurityProtectionBasis4\\SecurityProtectionBasis4\\SecurityProtectionBasis4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oleksandra\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.8\\microsoft.netcore.app.runtime.win-x86.3.1.8.nupkg.sha512",
+    "C:\\Users\\Oleksandra\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.8\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.8.nupkg.sha512",
+    "C:\\Users\\Oleksandra\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.8\\microsoft.aspnetcore.app.runtime.win-x86.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

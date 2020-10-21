@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SecurityProtectionBasis4/1.0.0": {
+        "dependencies": {
+          "PasswordGen": "1.0.0"
+        },
+        "runtime": {
+          "SecurityProtectionBasis4.dll": {}
+        }
+      },
+      "PasswordGen/1.0.0": {
+        "runtime": {
+          "PasswordGen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SecurityProtectionBasis4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PasswordGen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
